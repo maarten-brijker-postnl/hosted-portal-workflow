@@ -17,7 +17,8 @@ Follow these steps to try out this workflow for yourself:
 4. Fork this repository.
 5. Create 2 new Github repository secrets in the forked repository:
     - API_KEY to store your APIMatic API Key
-    - API_ENTITY_ID to store the API Entity ID you generated in step 2.     
+    - API_ENTITY_ID to store the API Entity ID you generated in step 2. 
+6. In the "inplace-import" step of the /workflows/main.yml file, update the file name of your API Specification i.e 'file=@spec/<your spec name>'.    
 6. Modify the API Specification stored in your repository and push your changes to the 'master' branch. This should trigger the CI/CD workflow. You can also manually trigger it via the 'Actions' tab in your repository.
 3. [Generate a portal](https://docs.apimatic.io/getting-started/creating-your-first-portal/) for the API that you imported in step 1 and preview the API Docs.
 7. The generated Portal should contain the changes you made to the API Specification.
