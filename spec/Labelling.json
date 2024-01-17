@@ -1,7 +1,7 @@
 {
   "openapi": "3.0.1",
   "info": {
-    "title": "Labelling API",
+    "title": "Labelling TEST API",
     "description": "Generate a label and (optional) confirmation TEST MESSAGE",
     "version": "v2_2"
   },
