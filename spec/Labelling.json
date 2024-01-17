@@ -2,7 +2,7 @@
   "openapi": "3.0.1",
   "info": {
     "title": "Labelling API",
-    "description": "Generate a label and (optional) confirmation",
+    "description": "Generate a label and (optional) confirmation TEST MESSAGE",
     "version": "v2_2"
   },
   "servers": [
